@@ -1,6 +1,6 @@
 # Transfer Shazam list to YouTube music / Spotify
 
-NodeJS Puppetier based app to go through the whole list of Shazam'ed songs and add them into either YouTube Music or Spotify.
+NodeJS Puppeteer based app to go through the whole list of Shazam'ed songs and add them into either YouTube Music or Spotify.
 
 ## The problem
 
@@ -95,6 +95,6 @@ such as fetching the request URL directly like:<br>
 `https://www.shazam.com/discovery/...bla-bla-bla...?limit=20&token=...bla-bla-bla...` [Look inside Devtools Network tab]<br>
 where `limit=20` could be set to amount of songs you have.<br>
 Or by using resenlty added `Download CSV` feature and then working with `.csv` file right away.<br>
-But the initial goal was to practise with Puppetier library a bit.<br>
+But the initial goal was to practise with Puppeteer library a bit.<br>
 
 Also this app written in a so called "success scenario", meaning there is no error handling or fallbacks if something went wrong durring execution. So just tweak the code and re-run it if it breaks ¯\\\_(ツ)\_/¯
