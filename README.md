@@ -1,6 +1,6 @@
 # Transfer Shazam list to YouTube music / Spotify
 
-Puppetier based app to go through the whole list of Shazam'ed songs and
+NodeJS Puppetier based app to go through the whole list of Shazam'ed songs and
 add them into either YTMusic or Spotify.
 
 ## The problem
