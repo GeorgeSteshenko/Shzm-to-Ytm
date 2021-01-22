@@ -34,7 +34,7 @@ Basically the whole app is split into several modules:
     next 20 songs. [`shazam.js` line: 33]
 - `google-auth.js` - created to log into YouTube music. Achieved with google third party login [at that point through the stackoverflow google login, because you have to pay a tribute to it, you know].<br>
   This workaround will help to overcome direct google login issue,
-  google will prevent you from login via puppetier [because
+  google will prevent you from login via puppeteer [because
   of 'attempt to login with automated software'].
   - **Side note:** Which wasn't actually bad, TBH. Use it on your own risk, that method probably caused my email to burst with tones of spam.
 - `youtube-music.js` & `spotify.js` to search and save songs into the playlist.
