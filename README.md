@@ -93,7 +93,7 @@ Well, that's it, hope it's gonna be useful.<br>
 Obviously the is more simple way to extract songs from Shazam,
 such as fetching the request URL directly like:<br>
 `https://www.shazam.com/discovery/...bla-bla-bla...?limit=20&token=...bla-bla-bla...` [Look inside Devtools Network tab]<br>
-where `limit=20` could be set to amount of song you have.<br>
+where `limit=20` could be set to amount of songs you have.<br>
 Or by using resenlty added `Download CSV` feature and then working with `.csv` file right away.<br>
 But the initial goal was to practise with Puppetier library a bit.<br>
 
